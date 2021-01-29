@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="FUKUOKA CAT CAFE" content="福岡市に20XX年OPENした猫カフェのWebサイトです。">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FUKUOKA CAT CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="img/png" href="img/fabcon.png">
+    <!--Javascriptへのリンク-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script src="js/jQuery3.4.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--ローディングアニメーション-->
+            <div class="loader-wrap">
+                <div class="loader">Loading...</div>
+            </div>
+
+            
+
+           <!--ハンバーガーメニュ-->
+            <div class="drawers">
+                <div class="drawer">
+                    <div class="navbar_toggle">
+                        <span class="navbar_toggle_icon"></span>
+                        <span class="navbar_toggle_icon"></span>
+                        <span class="navbar_toggle_icon"></span>
+                    </div>
+                </div>
+                <div class="h_menu">
+                    <ul>
+                        <li class="menu_li"><a href="#about">ABOUT</a></li>
+                        <li class="menu_li"><a href="#menu">MENU</a></li>
+                        <li class="menu_li"><a href="#contact">CONTACT</a></li>
+                        <li class="menu_li"><a href="#access">ACCESS</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+           <!--ナビゲーション-->
+            <div class="header_wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#about">
+                                <span>ABOUT<br>
+                                    お店について</span></a></li>
+                        <li><a href="#menu">
+                                <span>MENU<br>
+                                    メニュー</span></a></li>
+                        <li><a href="#contact">
+                                <span>CONTACT<br>
+                                    お問い合わせ</span></a></li>
+                        <li><a href="#access">
+                                <span>ACCESS<br>
+                                    アクセス</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+           <!--スライドショー-->
+            <div class="main_imgBox">
+                <div class="main_img" style="background-image: url(img/3460514_l.jpg)"></div>
+                <div class="main_img" style="background-image: url(img/cat-4611189_1920.jpg)"></div>
+                <div class="main_img" style="background-image: url(img/3743957_m.jpg)"></div>
+                <div class="main_img" style="background-image: url(img/3460514_l.jpg)"></div>
+                <div class="main_img" style="background-image: url(img/cat-4611189_1920.jpg)"></div>
+                <div class="main_img" style="background-image: url(img/3743957_m.jpg)"></div>
+            </div>
+
+
+
+           <!--ロゴマーク-->
+            <div class="top_logo">
+                <img src="img/logo.svg" alt="ロゴ">
+            </div>
+
+
+        </header>
+
+       
+       
+       <!--ブログリンク-->
+        <a href="#">
+            <div id="blog">
+                <p>Blog</p>
+                <img src="img/mike.png" alt="スタッフブログ">
+            </div>
+        </a>
+
+
+       
+       <!--メイン-->
+        <main>
+            <div id="main" class="fadein">
+                <div id="main_wrapper1" class="fadein">
+                    <h1 id="about" class="fadein">ABOUT</h1>
+                    <div id="caption1" class="fadein">
+                        <h2 class="fadein">- 当店について -</h2>
+
+                        <section class="container fadein">
+                            <img src="img/3947566_m.jpg" alt="猫写真" class="container_img">
+                        </section>
+
+                        <p class="fadein">当店は20XX年1月にOPENしました。<br>のんびりまったり、お食事やお茶をしながら、<br>猫ちゃんとのふれあいで癒されてみませんか？<br>かわいい猫スタッフたちがお待ちしています。</p>
+                    </div>
+                </div>
+
+                <div id="main_wrapper2" class="fadein">
+                    <div id="caption2" class="fadein">
+                        <h2 class="fadein">- 当店のスタッフについて -</h2>
+
+
+
+                        <section class="container fadein">
+                            <img src="img/cat-468232_1920.jpg" alt="猫写真" class="fadein">
+                        </section>
+
+
+                        <p class="fadein">当店の猫スタッフは、保護猫です。<br>里親になって下さる方を随時募集しております。<br>ご希望の方はお気軽に当店スタッフにお問い合わせください。</p>
+                    </div>
+                </div>
+            </div>
+
+
+           
+           <!--メニュー-->
+            <div id="menu" class="fadein">
+                <h1 class="fadein">MENU</h1>
+
+                <table class="usage_charge fadein">
+                    <tr>
+                        <th>ご利用料金</th>
+                        <th>料金(税込)</th>
+                    </tr>
+                    <tr>
+                        <td>30分</td>
+                        <td>￥1000</td>
+                    </tr>
+                    <tr>
+                        <td>１時間</td>
+                        <td>￥1500</td>
+                    </tr>
+                    <tr>
+                        <td>延長料金(30分毎)</td>
+                        <td>￥500</td>
+                    </tr>
+
+                </table>
+
+                <table class="food fadein">
+                    <tr>
+                        <th>フードメニュー</th>
+                        <th>料金(税込)</th>
+                    </tr>
+
+                    <tr>
+                        <td>カレー</td>
+                        <td>￥700</td>
+                    </tr>
+                    <tr>
+                        <td>オムライス</td>
+                        <td>￥700</td>
+                    </tr>
+                    <tr>
+                        <td>ナポリタン</td>
+                        <td>￥700</td>
+                    </tr>
+                    <tr>
+                        <td>カルボナーラ</td>
+                        <td>￥700</td>
+                    </tr>
+
+                </table>
+
+                <table class="drink fadein">
+                    <tr>
+                        <th>ドリンクメニュー</th>
+                        <th>料金(税込)</th>
+                    </tr>
+
+                    <tr>
+                        <td>オレンジジュース</td>
+                        <td>￥150</td>
+                    </tr>
+                    <tr>
+                        <td>ジンジャーエール</td>
+                        <td>￥150</td>
+                    </tr>
+                    <tr>
+                        <td>烏龍茶</td>
+                        <td>￥150</td>
+                    </tr>
+                    <tr>
+                        <td>緑茶</td>
+                        <td>￥150</td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+           
+           <!--コンタクト-->
+            <div id="contact" class="fadein">
+                <h1 class="fadein">CONTACT</h1>
+                <div class="Form fadein">
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+                        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+                        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+                        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+                    </div>
+                    <div class="Form-Item">
+                        <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+                        <textarea class="Form-Item-Textarea"></textarea>
+                    </div>
+                    <input type="submit" class="Form-Btn" value="送信する">
+                </div>
+            </div>
+            
+
+           
+           
+           <!--アクセス-->
+            <div id="access" class="fadein">
+                <h1 class="fadein">ACCESS</h1>
+
+                <div id="access_wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4068.322789421372!2d130.4009774478309!3d33.58849374051688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918d92640001%3A0xa6be043af574bf0b!2z6K2m5Zu65YWs5ZyS!5e0!3m2!1sja!2sjp!4v1610023975124!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="fadein"></iframe>
+                    <p class="fadein">
+                        住所：<br>
+                        〒XXX-XXXX<br>
+                        福岡市中央区天神XX丁目XX番XX号<br><br>
+
+                        電話番号：<br>
+                        XXX-XXX-XXXX<br><br>
+
+                        営業時間：<br>
+                        月～金 15:00～19:00<br>
+                        土・日 13:00～19:00<br><br>
+
+                        定休日：<br>
+                        毎週水曜日・祝日 </p>
+                </div>
+            </div>
+
+
+            <!--TOPへ戻る-->
+            <p id="scrollTop">
+                <a href="#page-top"><img src="img/top.png" alt="TOPへ">
+                </a>
+            </p>
+
+        </main>
+
+
+       
+       <!--フッター-->
+        <footer>
+            &copy;2021 FUKUOKA CAT CAFE All Rights Reserverd.
+        </footer>
+    </div>
+</body></html>
