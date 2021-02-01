@@ -303,7 +303,6 @@ h1 {
 /*ナビゲーション*********************/
 nav {
     height: 15vh;
-
 }
 
 nav ul {
@@ -319,7 +318,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    width: 25%;
+    width: 20%;
     height: auto;
     text-align: center;
     position: relative;
@@ -440,34 +439,6 @@ main_imgBox {
 
 .top_logo img {
     width: 18vw;
-}
-
-
-/*ブログへのリンク*********************/
-#blog {
-    background-color: darkgrey;
-    width: 180px;
-    height: 180px;
-    position: absolute;
-    top: 180vh;
-    left: -15px;
-    z-index: 10;
-    text-align: center;
-}
-
-#blog p {
-    color: #FFF;
-    font-size: 1.6em;
-    margin: 0;
-    padding: 10px 0 10px 0;
-}
-
-#blog img {
-    width: 80px;
-}
-
-#blog:hover {
-    left: 0;
 }
 
 
@@ -627,7 +598,7 @@ table.drink td {
 
 table.drink th {
     background-color: #336b87;
-    color: white;
+    color: #FFF;
     border: solid 1px #2a3132;
 }
 
@@ -822,6 +793,54 @@ footer {
 .fadein.scrollin {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+
+
+
+/*猫スタッフ紹介ページ*********************/
+h1.cat_staff_title {
+    margin-top: 20vh;
+    font-size: 3em;
+}
+
+.cat_caption {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.cat_caption img {
+    width: 200px;
+    height: auto;
+}
+
+.cat_caption figure {
+    position: relative;
+}
+
+.cat_caption figure::before {
+    content: '';
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10000;
+}
+
+.cat_caption img.last_img {
+    width: 300px;
+}
+
+.cat_caption figcaption {
+    font-size: 1.2em;
+    color: #78420E;
 }
 
 
